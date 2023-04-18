@@ -1,0 +1,36 @@
+﻿<Window x:Class="ПП02.RedactProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ПП02"
+        mc:Ignorable="d"
+        Title="Редактирование товара" Height="450" Width="636" FontFamily="Segoe Print">
+    <Grid>
+        <StackPanel>
+            <Border Background="#FEA9AB" Height="60">
+                <TextBlock Text="Сотрудник: Катаев Дмитрий Денисович" FontSize="24" VerticalAlignment="Center" Margin="40,0,0,0"/>
+            </Border>
+            <StackPanel Orientation="Horizontal">
+                <StackPanel>
+                    <TextBlock Text="Фото" Margin="60,30,0,0"/>
+                    <Border Width="250" Height="247" Margin="50,0,0,0">
+                        <Image Source="/material_1.jpeg" Width="250" Margin="0,11,0,58"/>
+                    </Border>
+                    <Button Content="Сохранить" Width="200" Height="40" Margin="50,0,0,0"/>
+                </StackPanel>
+                <StackPanel Margin="20,60,0,0">
+                    <TextBlock Text="Название"/>
+                    <TextBox Width="230" Text="Гранулы цветной 3x1"/>
+                    <TextBlock Text="Поставщик" Margin="0,10,0,0"/>
+                    <TextBox Width="230" Text="ХозБашкирГла"/>
+                    <TextBlock Text="Количество" Margin="0,10,0,0"/>
+                    <TextBox Width="230" Text="44"/>
+                    <TextBlock Text="Цена" Margin="0,10,0,0"/>
+                    <TextBox Width="230" Text="215"/>
+                </StackPanel>
+
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

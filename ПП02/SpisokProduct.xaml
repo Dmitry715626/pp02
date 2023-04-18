@@ -1,0 +1,23 @@
+﻿<Window x:Class="ПП02.SpisokProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ПП02"
+        mc:Ignorable="d"
+        Title="Склад" Height="554" Width="800" FontFamily="Segoe Print">
+    <Grid>
+        <StackPanel>
+            <Border Background="#FEA9AB" Height="60">
+                <TextBlock Text="Сотрудник: Катаев Дмитрий Денисович" FontSize="24" VerticalAlignment="Center" Margin="40,0,0,0"/>
+            </Border>
+            <StackPanel Orientation="Horizontal">
+                <TextBox Text="Введите для поиска" Width="150" HorizontalAlignment="Left" Margin="20,20,0,0" />
+                <ComboBox Name="Sort" Text="Сортировка" Width="150" Height="25" Margin="20,20,0,0"/>
+                <ComboBox Name="Filtr" Text="Сортировка" Width="150" Height="25" Margin="20,20,0,0"/>
+                <Button Content="Заказ" Background="Green" Width="150" Height="25" Margin="20,20,0,0"/>
+            </StackPanel>
+            <ListBox Name="ListProd" Background="#EAB14D" Height="400" Margin="20" Style="{DynamicResource Products}"/>
+        </StackPanel>
+    </Grid>
+</Window>
