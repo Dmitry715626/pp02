@@ -16,5 +16,6 @@ namespace ПП02
         public string MaterialEdIzm;
         public string Postavchik;
         public string MaterialCount;
+        public string Price;
     }
 }

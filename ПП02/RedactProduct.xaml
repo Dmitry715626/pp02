@@ -17,17 +17,17 @@
                     <Border Width="250" Height="247" Margin="50,0,0,0">
                         <Image Source="/material_1.jpeg" Width="250" Margin="0,11,0,58"/>
                     </Border>
-                    <Button Content="Сохранить" Width="200" Height="40" Margin="50,0,0,0"/>
+                    <Button Content="Сохранить" Width="200" Height="40" Margin="50,0,0,0" Click="Button_Click"/>
                 </StackPanel>
                 <StackPanel Margin="20,60,0,0">
                     <TextBlock Text="Название"/>
-                    <TextBox Width="230" Text="Гранулы цветной 3x1"/>
+                    <TextBox x:Name="Name" Width="230" Text="Гранулы цветной 3x1"/>
                     <TextBlock Text="Поставщик" Margin="0,10,0,0"/>
-                    <TextBox Width="230" Text="ХозБашкирГла"/>
+                    <TextBox x:Name="Post" Width="230" Text="ХозБашкирГла"/>
                     <TextBlock Text="Количество" Margin="0,10,0,0"/>
-                    <TextBox Width="230" Text="44"/>
+                    <TextBox x:Name="Count" Width="230" Text="44"/>
                     <TextBlock Text="Цена" Margin="0,10,0,0"/>
-                    <TextBox Width="230" Text="215"/>
+                    <TextBox x:Name="Price" Width="230" Text="215"/>
                 </StackPanel>
 
             </StackPanel>

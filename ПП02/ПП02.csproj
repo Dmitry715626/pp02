@@ -68,9 +68,6 @@
     <Compile Include="SpisokProduct.xaml.cs">
       <DependentUpon>SpisokProduct.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SpisokSotrudnik.xaml.cs">
-      <DependentUpon>SpisokSotrudnik.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ZakazProductov.xaml.cs">
       <DependentUpon>ZakazProductov.xaml</DependentUpon>
     </Compile>
@@ -99,10 +96,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SpisokProduct.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="SpisokSotrudnik.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

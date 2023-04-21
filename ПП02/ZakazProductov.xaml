@@ -20,15 +20,15 @@
                 </StackPanel>
                 <StackPanel Margin="20,60,0,0">
                     <TextBlock Text="Название"/>
-                    <TextBox Width="230" Text="Картонная бумага"/>
-                    <TextBlock Text="Поставщик" Margin="0,10,0,0"/>
+                    <TextBox x:Name="Name" Width="230" Text="Картонная бумага"/>
+                    <TextBlock x:Name="Post" Text="Поставщик" Margin="0,10,0,0"/>
                     <TextBox Width="230" Text="Рога и копыта"/>
                     <TextBlock Text="Количество" Margin="0,10,0,0"/>
-                    <TextBox Width="230" Text="32"/>
+                    <TextBox x:Name="Count"  Width="230" Text="32"/>
                     <TextBlock Text="Цена" Margin="0,10,0,0"/>
-                    <TextBox Width="230" Text="315"/>
+                    <TextBox x:Name="Price" Width="230" Text="315"/>
                     <TextBlock Text="Стоимость: 1120" Margin="0,10,0,0"/>
-                    <Button Content="Заказать" Width="200" Height="40" Margin="0,30,0,0"/>
+                    <Button Content="Заказать" Width="200" Height="40" Margin="0,30,0,0" Click="Button_Click"/>
                 </StackPanel>
                 
             </StackPanel>
