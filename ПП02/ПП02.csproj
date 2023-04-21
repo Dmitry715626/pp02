@@ -58,6 +58,7 @@
     <Compile Include="AddProduct.xaml.cs">
       <DependentUpon>AddProduct.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Job.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="RedactProduct.xaml.cs">
       <DependentUpon>RedactProduct.xaml</DependentUpon>

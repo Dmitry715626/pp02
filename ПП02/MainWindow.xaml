@@ -10,10 +10,10 @@
         <StackPanel HorizontalAlignment="Center">
             <TextBlock Text="Авторизация" FontSize="26" Margin="0,30,0,0"/>
             <TextBlock Text="Логин" Margin="0,70,0,0"/>
-            <TextBox Name="Login" Margin="0,5,0,0"/>
+            <TextBox  Name="Login" Margin="0,5,0,0"/>
             <TextBlock Text="Пароль" Margin="0,15,0,0"/>
             <TextBox Name="Pass" Margin="0,5,0,0"/>
-            <Button Content="Вход" Margin="0,30,0,0"/>
+            <Button Content="Вход" Margin="0,30,0,0" Click="Button_Click"/>
         </StackPanel>
     </Grid>
 </Window>
